@@ -24,9 +24,10 @@ body {
 @font-face {
 	font-family: "Druk Wide Medium Cy";
 	src: local("Druk Wide Medium Cy"), local("Druk_Wide_Medium_Cy"),
-		url("/static/fonts/Druk_Wide_Medium_Cy.woff2") format("woff2"),
-		url("/static/fonts/Druk_Wide_Medium_Cy.woff") format("woff"),
-		url("/static/fonts/Druk_Wide_Medium_Cy.ttf") format("truetype");
+		url("/authorize/static/fonts/Druk_Wide_Medium_Cy.woff2") format("woff2"),
+		url("/authorize/static/fonts/Druk_Wide_Medium_Cy.woff") format("woff"),
+		url("/authorize/static/fonts/Druk_Wide_Medium_Cy.ttf")
+			format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }

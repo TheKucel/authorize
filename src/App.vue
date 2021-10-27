@@ -5,7 +5,7 @@
 				<h1>
 					<span v-for="(l, k) in 'WELCOME'" :key="k">{{ l }}</span>
 				</h1>
-				<img src="/static/imgs/back.png" alt="" />
+				<img src="/authorize/static/imgs/back.png" alt="" />
 			</div>
 			<transition-group name="fade">
 				<template v-if="!login.correct">
